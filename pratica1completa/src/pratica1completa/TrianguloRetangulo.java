@@ -8,18 +8,18 @@ package pratica1completa;
  *
  * @author 1512857
  */
-public class Triangulo {
+public class TrianguloRetangulo {
     private double h;
     private double c1;
     private double c2;
     
-    public Triangulo(double h, double c1, double c2){
+    public TrianguloRetangulo(double h, double c1, double c2){
         this.h = h;
         this.c1 = c1;
         this.c2 = c2;
     }
     
-    public Triangulo(){
+    public TrianguloRetangulo(){
         this.h = 0;
         this.c1 = 0.0;
         this.c2 = 0.0;
@@ -68,7 +68,7 @@ public class Triangulo {
     }
     
     public double calcularArea(){
-        return (c1 + c2) / 2;
+        return (c1 * c2) / 2;
     }
     
     public double calcularHipotenusa(){
